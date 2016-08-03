@@ -131,4 +131,12 @@ ul {
   .btn {
     margin: 5px;
   }
+
+  h1 {
+    letter-spacing: .025em;
+  }
+
+  h2 {
+    letter-spacing: .01em;
+  }
 }
