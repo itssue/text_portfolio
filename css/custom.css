@@ -127,7 +127,7 @@ ul {
   box-shadow:none !important;
 }
 
-@media (max-width:@screen-xs-max) {
+@media (max-width:481px) {
   .btn {
     margin: 5px;
   }
