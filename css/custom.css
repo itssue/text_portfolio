@@ -105,7 +105,6 @@ ul {
 	color: #6a5acd;
   background: rgba(0,0,0,0);
   border: solid 5px #6a5acd;
-  margin: 2px;
 }
 
 .btn:hover {
@@ -128,4 +127,8 @@ ul {
   box-shadow:none !important;
 }
 
-@media (min-width: @screen-sm-min) { ... }
+@media (max-width:@screen-xs-max) {
+  .btn {
+    margin: 5px;
+  }
+}
