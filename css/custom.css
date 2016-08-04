@@ -103,7 +103,13 @@ ul {
   font-size: 1.2em;
 	border-radius: 0px;
 	color: #6a5acd;
-  background: rgba(0,0,0,0);
+  background: #fff;
+  border: solid 5px #6a5acd;
+}
+
+.btn:visited {
+  color: #6a5acd;
+  background: #fff;
   border: solid 5px #6a5acd;
 }
 
@@ -116,7 +122,7 @@ ul {
 
 .btn:focus {
   color: #6a5acd;
-  background: rgba(0,0,0,0);
+  background: #fff;
   border: solid 5px #6a5acd;
 }
 
@@ -127,14 +133,6 @@ ul {
   box-shadow:none !important;
 }
 
-.btn:visited {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
-  border-radius: 0px;
-  color: #6a5acd;
-  background: rgba(0,0,0,0);
-  border: solid 5px #6a5acd;
-}
 
 @media (max-width:481px) {
   .btn {
@@ -150,6 +148,6 @@ ul {
   }
 
   ul {
-    line-height: 1.25;
+    line-height: 1.5;
   }
 }
