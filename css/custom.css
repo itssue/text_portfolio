@@ -1,17 +1,18 @@
 .container {
     width: 100%;
+    height: 100%;
     max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: auto;
     padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    margin-bottom: 7.5rem
+    padding-right: 1.5rem
 }
 
 .header {
-    text-align: center;
-    margin-top: 6.25rem;
-    margin-bottom: 6.25rem;
+    text-align: left;
+    margin-top: 3.25rem;
+    margin-bottom: 3.25rem;
     cursor: default
 }
 
@@ -30,32 +31,32 @@ h1 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: .05em;
-  margin-top: 1.041625rem;
-  margin-bottom: .125075rem
+  margin-top: 1.04rem;
+  margin-bottom: .13rem
 }
 
 h2 {
-  font-family: 'Lobster', cursive;
+  font-family: 'Oswald', sans-serif;
   color: #C6C4C9;
-  font-size: 1.3333em;
+  font-size: 1.33em;
   line-height: 1;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: .03em;
-  margin-top: 0.5rem;
-  margin-bottom: 2.4167rem
+  margin-top: 0.3rem;
+  margin-bottom: 1.5rem
 }
 
 h3 {
-	font-family: 'Oswald', sans-serif;
+	color: #555;
+  font-family: 'Oswald', sans-serif;
 	font-size: 1.0em;
   font-weight: 700;
 	margin-top: 1.5rem;
 }
 
 body {
-  color: #474747;
-  background-color: #fff;
-  font-family: "Franklin Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #6d6d6d;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.25;
   letter-spacing: 0;
@@ -66,27 +67,25 @@ body {
   overflow-x: hidden
 }
 
-p {
-  font-size: 1em;
-  margin-bottom: .625rem
+a {
+  color: #6a5acd;
+  text-decoration: none;
+  /*border-bottom: 1px dotted #C6C4C9;*/
 }
 
-a {
-/*  color: inherit;
-*/  color: #6a5acd;
+a:visited, a:hover, a:active, a:focus {
+  color: #6a5acd;
   text-decoration: none;
 }
 
-a:hover {
-	color: #6a5acd;
+p {
+  font-size: 1em;
+  margin-bottom: 1.25rem
 }
 
-a:visited {
-  color: #6a5acd;
-}
-
-a:active {
-  color: #6a5acd;
+.col-md-8, .col-md-4 {
+  font-size: 0.8em;
+  margin-bottom: .63rem
 }
 
 ul {
@@ -98,39 +97,20 @@ ul {
     list-style: none
 }
 
-.btn {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
-	border-radius: 0px;
-	color: #6a5acd;
-  background: #fff;
-  border: solid 5px #6a5acd;
+ul.icons {
+  cursor: default;
+} 
+
+ul.icons li {
+  display: inline-block;
 }
 
-.btn:visited {
-  color: #6a5acd;
-  background: #fff;
-  border: solid 5px #6a5acd;
-}
-
-.btn:hover {
-  color: #fff;
-  background: #6a5acd;
-  border: solid 5px #6a5acd;
-  box-shadow:none;
-}
-
-.btn:focus {
-  color: #6a5acd;
-  background: #fff;
-  border: solid 5px #6a5acd;
-}
-
-.btn:active {
-  color: #fff !important;
-  background: #6a5acd !important;
-  border: solid 5px #6a5acd !important;
-  box-shadow:none !important;
+ul.icons a {
+  display: inline-block;
+  width: 1.75em;
+  height: 1.75em;
+  line-height: 1.8em;
+  text-decoration: none;
 }
 
 
