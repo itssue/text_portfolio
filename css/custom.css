@@ -115,6 +115,12 @@ ul.icons a {
 
 
 @media (max-width:481px) {
+  .container {
+    margin-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem
+  }
+
   .btn {
     margin: 5px;
   }
